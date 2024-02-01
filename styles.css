@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: roboto;
+}
+
+.one {
+    background-color: #1F2937;
+    padding: 0px 170px 120px 170px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    margin-bottom: 100px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.one-content {
+    display: flex;
+}
+
+.left-content {
+    margin-right: 80px;
+    flex: 1;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 6px 30px;
+}
+
+.cat {
+    flex: 1;
+    height: 240px;
+    max-width: 700px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    text-align: center;
+    padding: 50px;
+}
+
+.two-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.image {
+    max-width: 150px;
+}
+
+.stare {
+    width: 150px;
+    height: auto;
+    border: 1px solid #3882F6;
+    border-radius: 8px;
+    border-width: 4px;
+}
+
+.text {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.three {
+    background-color: #e5e7ebc7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-content {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 310px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    background-color: #e5e7ebc7;
+    font-size: 24px;
+    font-weight: 800;
+    align-self: end;
+}
+
+.four {
+    padding: 100px 200px;
+}
+
+.four-content {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.four-button {
+    border-color: #F9FAF8;
+    max-height: 37px;
+    align-self: center;
+}
+
+.call-text {
+    color: #F9FAF8;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.sign-up-text {
+    color: #E5E7EB;
+}
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.copyright {
+    color: #F9FAF8;
+    font-size: 18px;
+}
